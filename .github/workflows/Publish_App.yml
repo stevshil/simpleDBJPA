@@ -3,7 +3,7 @@ name: Build Application JAR
 # Define when the pipeline will trigger
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "tests" ]
     tags:
       - '*'
     # paths:
